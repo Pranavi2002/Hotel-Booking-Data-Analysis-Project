@@ -60,7 +60,7 @@ All visualizations are included in the notebook and presented interactively wher
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/Hotel-Booking-Data-Analysis-Project.git
-````
+```
 
 2. Install required libraries (if not already installed):
 
