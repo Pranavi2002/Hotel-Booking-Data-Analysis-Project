@@ -1,75 +1,90 @@
 # 🏨 Hotel Booking Data Analysis Project
 
-This project explores and visualizes hotel booking data to uncover key patterns in customer behavior, cancellations, and booking trends. Using Python and data visualization tools, it provides actionable insights for improving hotel performance and customer retention.
+This project provides a comprehensive exploratory data analysis (EDA) on hotel booking data to uncover patterns in guest behavior, cancellations, pricing, and stay duration. The insights derived can help hotels optimize their operations, marketing strategies, and revenue management.
 
 ---
 
-## 📌 Objective
+## 📁 Repository Contents
 
-To analyze over 100,000 hotel booking records and identify trends that impact cancellations, guest types, lead time, country-wise distribution, and more — helping hotel managers make data-driven decisions.
-
----
-
-## 🛠️ Tech Stack
-
-- **Language:** Python  
-- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
-- **Environment:** Jupyter Notebook  
-- **Dataset:** `hotel_bookings.csv` (from [Kaggle](https://www.kaggle.com/datasets/mathsian/hotel-bookings))
+| File | Description |
+|------|-------------|
+| `hotel_booking_data_analysis.ipynb` | Jupyter notebook containing the entire analysis, visualizations, and conclusions. |
+| `hotel_bookings.csv` | Raw dataset used for analysis. |
+| `Summary` | Final report summarizing key insights and findings from the analysis. |
 
 ---
 
-## 📁 Repository Structure
+## 📊 Project Objectives
 
-```
-
-Hotel-Booking-Data-Analysis-Project/
-├── hotel\_booking\_data\_analysis.ipynb   # Jupyter notebook with complete analysis
-├── hotel\_bookings.csv                  # Raw dataset used
-└── README.md                           # Project documentation
-
-```
+- Analyze guest demographics and geographic origins.
+- Understand patterns in booking and cancellations.
+- Examine average daily rate (ADR) trends across months.
+- Visualize stay durations and customer preferences.
+- Identify the impact of lead time and market segments on booking behavior.
 
 ---
 
-## 📊 Key Insights
+## 🔧 Technologies Used
 
-- **City hotels** have more bookings than **resort hotels**, but also higher cancellation rates.
-- **Portugal**, **UK**, and **France** lead in terms of international guest bookings.
-- **Families** and **repeated guests** show different booking behaviors compared to solo travelers.
-- Cancellation likelihood increases with **longer lead time** and specific months.
-- **Correlation heatmaps** highlight strong patterns between variables like booking channel, deposit type, and customer type.
+- **Python** (Pandas, NumPy)
+- **Data Visualization**: Matplotlib, Seaborn, Plotly, Plotly Express
+- **Jupyter Notebook** for interactive analysis
 
 ---
 
-## 📈 Visualizations
+## 📈 Key Insights
 
-The notebook includes:
-- Country-wise booking distribution
-- Monthly booking/cancellation trends
-- Guest types and repeat guests
-- Lead time vs. cancellations
-- Correlation heatmap of key features
-
-📷 _Screenshots can be added for visual reference._
+- **City hotels** are booked more frequently than **resort hotels**.
+- **Cancellations** peak in **summer months**, especially among city hotels.
+- **Portugal, UK, and France** contribute to the majority of international guests.
+- Guests typically stay for **1–4 nights**, with longer stays more common in resorts.
+- **Online travel agents (OTA)** dominate the booking channels.
+- Room prices (ADR) vary seasonally, with higher rates during peak months.
 
 ---
 
-## 📂 Dataset Source
+## 🌍 Visualizations
 
-- 📥 [Hotel Booking Dataset on Kaggle](https://www.kaggle.com/datasets/mathsian/hotel-bookings)
+- 📌 Country-wise guest distribution (Choropleth map)
+- 📅 Monthly booking & cancellation trends
+- 💸 Price variation over the year
+- ⏳ Stay duration analysis
+- 📦 Market segment breakdown
 
----
-
-## ✍️ Author
-
-**Venkata Naga Sri Sai Pranavi Kolipaka**  
-📧 [kolipakavnssaipranavi@gmail.com](mailto:kolipakavnssaipranavi@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/your-link) | [GitHub](https://github.com/your-username)
+All visualizations are included in the notebook and presented interactively where applicable.
 
 ---
 
-## 📄 License
+## 🧾 How to Use
 
-This project is intended for educational and personal portfolio use. Dataset is credited to the original authors and is publicly available on Kaggle.
-```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Hotel-Booking-Data-Analysis-Project.git
+````
+
+2. Install required libraries (if not already installed):
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn plotly
+   ```
+3. Open the Jupyter notebook:
+
+   ```bash
+   jupyter notebook hotel_booking_data_analysis.ipynb
+   ```
+4. Run the cells to explore the data and visualizations.
+
+---
+
+## 📝 License
+
+This project is for academic and learning purposes only. Please cite the original [Kaggle dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand) if using this work.
+
+---
+
+## 👩‍💻 Author
+### Pranavi Kolipaka
+Feel free to connect: 
+- [LinkedIn] (https://www.linkedin.com/in/vns-sai-pranavi-kolipaka-489601208/) 
+- [GitHub] (https://github.com/Pranavi2002)
+

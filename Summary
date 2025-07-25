@@ -1,0 +1,100 @@
+## 🏨 Hotel Booking Data Analysis — Final Summary
+
+### 🔍 **Objective**
+
+The project performs **exploratory data analysis (EDA)** on a hotel booking dataset from Kaggle, with the aim of understanding:
+
+* Guest behavior
+* Booking and cancellation trends
+* Pricing and revenue patterns
+* Geographic distribution of customers
+* Stay durations and market segments
+
+The findings are useful for **hotel management, marketing, and revenue optimization**.
+
+---
+
+## 📂 **Data Overview**
+
+* The dataset consists of **city** and **resort** hotel bookings.
+* Key columns include: `hotel`, `is_canceled`, `lead_time`, `arrival_date`, `country`, `adr` (average daily rate), `stays`, `guests`, and more.
+* It includes **missing values**, **outliers**, and **imbalanced classes**, which were cleaned and handled before analysis.
+
+---
+
+## 🧹 **Data Preparation**
+
+* Rows with inappropriate values (e.g., zero guests) were removed.
+* Missing values were handled.
+* Columns were combined to derive useful features like **total\_nights** and **total\_guests**.
+* Dataset was split into **clean subsets** for more accurate visualizations.
+
+---
+
+## 📊 **Key Visualizations & Findings**
+
+### 1. **Booking Trends**
+
+* **City hotels** receive more bookings than **resort hotels**.
+* Booking volumes differ significantly by **hotel type**, **month**, and **market segment**.
+
+### 2. **Top Guest Countries**
+
+* Guests are mainly from **Portugal, Great Britain, and France**, accounting for **\~50%** of bookings.
+* A **choropleth map** and **bar chart** visualized the geographical spread of guests.
+
+### 3. **Guest Stay Duration**
+
+* Majority of bookings are for **1–4 nights**.
+* Resort hotel guests tend to stay longer than city hotel guests.
+
+### 4. **Room Pricing Patterns**
+
+* The **average daily rate (ADR)** varies across the year, with **higher prices in summer months**.
+* City hotels show more pronounced seasonal price changes than resort hotels.
+
+### 5. **Booking Cancellations**
+
+* A significant percentage of bookings are **canceled**, especially for city hotels.
+* **Highest cancellations** occur in the **summer months** (June–August).
+* Booking cancellation is also tied to **lead time** (i.e., longer lead times often result in more cancellations).
+
+### 6. **Market Segment Analysis**
+
+* The **online travel agent (OTA)** segment dominates the bookings.
+* Cancellations are more frequent in OTA bookings compared to other channels.
+
+---
+
+## 📈 **Visual Tools Used**
+
+* **Seaborn** and **Matplotlib** for static plots (bar charts, count plots, distribution plots)
+* **Plotly** for interactive plots (bar charts and choropleth maps)
+
+Total Plots: **22**, including:
+
+* Booking counts
+* Cancellations by hotel type/month
+* Guest distribution maps
+* Room price variation trends
+* Stay duration charts
+
+---
+
+## 💡 **Key Insights**
+
+* City hotels are more popular but also face higher cancellation rates.
+* ADR (price per night) peaks in summer, aligning with high demand.
+* Guests from Europe dominate, especially from Portugal, UK, and France.
+* Marketing efforts can be optimized by targeting high-booking countries and managing cancellation risks based on lead time.
+
+---
+
+## ✅ **Conclusion**
+
+This EDA uncovered patterns in bookings, cancellations, pricing, and guest behavior. The insights can support:
+
+* **Dynamic pricing models**
+* **Targeted marketing campaigns**
+* **Inventory and staff planning**
+* **Reducing cancellations** through better lead time management
